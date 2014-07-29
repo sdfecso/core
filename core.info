@@ -12,6 +12,11 @@ dependencies[] = ft_seo
 ; dependencies[] = fixtures
 ; dependencies[] = mailchimp
 
+; ERP-connected solution level
+dependencies[] = xdruple_entityreference
+dependencies[] = xdfields_rest_storage
+dependencies[] = rescued
+
 ; Content types
 ; dependencies[] = ct_article
 ; dependencies[] = ct_faq
