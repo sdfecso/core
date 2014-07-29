@@ -22,6 +22,13 @@ dependencies[] = rescued
 ; dependencies[] = xdruple_invoice
 ; dependencies[] = xdruple_netterms
 
+; xTuple Commerce solution level
+dependencies[] = ft_commerce
+dependencies[] = xdruple_queries
+dependencies[] = xdruple_credit_status
+dependencies[] = xdruple_invoice
+dependencies[] = xdruple_order
+
 ; Content types
 ; dependencies[] = ct_article
 ; dependencies[] = ct_faq
