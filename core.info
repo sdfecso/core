@@ -1,0 +1,9 @@
+name = Core
+description = Keeps dependencies and customizations for each Drupal solution
+package = Project
+core = 7.x
+
+; Common Drupal solution level
+dependencies[] = ft_core
+dependencies[] = ft_media
+dependencies[] = ft_seo
