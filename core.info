@@ -7,3 +7,15 @@ core = 7.x
 dependencies[] = ft_core
 dependencies[] = ft_media
 dependencies[] = ft_seo
+; Optional packages
+; dependencies[] = addthis
+; dependencies[] = fixtures
+; dependencies[] = mailchimp
+
+; Content types
+; dependencies[] = ct_article
+; dependencies[] = ct_faq
+; dependencies[] = ct_page
+; dependencies[] = ct_promo
+; dependencies[] = ct_testimonial
+; dependencies[] = ct_webform
