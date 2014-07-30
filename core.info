@@ -24,10 +24,14 @@ dependencies[] = rescued
 
 ; xTuple Commerce solution level
 dependencies[] = ft_commerce
+dependencies[] = xdruple_checkout
 dependencies[] = xdruple_queries
-dependencies[] = xdruple_credit_status
-dependencies[] = xdruple_invoice
 dependencies[] = xdruple_order
+dependencies[] = xdruple_search
+dependencies[] = xdruple_shipping
+; Optional packages
+; dependencies[] = xdruple_save_cart
+; dependencies[] = commerce_ups
 
 ; Content types
 ; dependencies[] = ct_article
