@@ -29,3 +29,6 @@ dependencies[] = rescued
 ; dependencies[] = ct_promo
 ; dependencies[] = ct_testimonial
 ; dependencies[] = ct_webform
+
+; Project feature
+dependencies[] = ft_project
