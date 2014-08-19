@@ -18,6 +18,7 @@ dependencies[] = xdfields_rest_storage
 dependencies[] = rescued
 ; Optional packages
 ; dependencies[] = xdruple_authnet
+; dependencies[] = xdruple_characteristics
 ; dependencies[] = xdruple_credit_status
 ; dependencies[] = xdruple_invoice
 ; dependencies[] = xdruple_netterms
