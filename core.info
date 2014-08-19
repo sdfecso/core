@@ -32,6 +32,8 @@ dependencies[] = xdruple_search
 dependencies[] = xdruple_shipping
 ; Optional packages
 ; dependencies[] = xdruple_save_cart
+; dependencies[] = xdruple_favorites
+; dependencies[] = xdruple_recent
 ; dependencies[] = commerce_ups
 
 ; Content types
