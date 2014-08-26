@@ -24,7 +24,7 @@ dependencies[] = rescued
 ; dependencies[] = xdruple_netterms
 
 ; xTuple Commerce solution level
-dependencies[] = ft_commerce
+dependencies[] = xdruple_commerce
 dependencies[] = xdruple_checkout
 dependencies[] = xdruple_queries
 dependencies[] = xdruple_order
@@ -35,6 +35,8 @@ dependencies[] = xdruple_shipping
 ; dependencies[] = xdruple_favorites
 ; dependencies[] = xdruple_recent
 ; dependencies[] = commerce_ups
+; Commerce feature
+dependencies[] = ft_commerce
 
 ; Content types
 ; dependencies[] = ct_article
