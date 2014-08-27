@@ -36,6 +36,7 @@ dependencies[] = xdruple_shipping
 ; dependencies[] = xdruple_favorites
 ; dependencies[] = xdruple_recent
 ; dependencies[] = commerce_ups
+; dependencies[] = xdruple_authnet
 ; Commerce feature
 dependencies[] = ft_commerce
 
