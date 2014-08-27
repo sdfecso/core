@@ -21,6 +21,8 @@ dependencies[] = rescued
 ; dependencies[] = xdruple_credit_status
 ; dependencies[] = xdruple_invoice
 ; dependencies[] = xdruple_netterms
+; ERP feature
+dependencies[] = ft_erp
 
 ; xTuple Commerce solution level
 dependencies[] = xdruple_commerce
