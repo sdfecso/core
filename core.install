@@ -3,3 +3,47 @@
 /**
  * @file keeps installation and update functions
  */
+
+/**
+ * Implements hook_install()
+ */
+function core_install() {
+  _core_install_theme_default_fix();
+  _core_install_default_variables();
+}
+
+/**
+ * Helper function. Assures that default theme is enabled and all other themes are disabled.
+ */
+function _core_install_theme_default_fix() {
+  module_load_include('inc', 'ft_project', 'ft_project.strongarm');
+
+  $theme_default = variable_get('theme_default', 'bootsass');
+  if (function_exists('ft_project_strongarm')) {
+    $variables = ft_project_strongarm();
+    if (!empty($variables['theme_default'])) {
+      $theme_default = $variables['theme_default']->value;
+    }
+  }
+
+  theme_disable(array_keys(list_themes()));
+  theme_enable(array($theme_default));
+}
+
+/**
+ * Helper function. Defines default content variables.
+ */
+function _core_install_default_variables() {
+  variable_set('site_phone_value', '(800) 555-1234');
+  variable_set('header_site_phone_title', 'Call us:');
+  variable_set('footer_site_phone_title', 'Call us now toll free:');
+  variable_set('footer_contacts_title', 'Contact information');
+  variable_set('footer_contacts_value', array(
+    'value' => 'Site built by xTuple.',
+    'format' => 'htmlpurifier_basic',
+  ));
+  variable_set('site_copyright', array(
+    'value' => '<p>© ' . date('Y') . ', ' . variable_get('site_name') . '</p>',
+    'format' => 'htmlpurifier_basic',
+  ));
+}
