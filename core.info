@@ -36,6 +36,7 @@ dependencies[] = xdruple_shipping
 ; dependencies[] = xdruple_save_cart
 ; dependencies[] = xdruple_favorites
 ; dependencies[] = xdruple_recent
+; dependencies[] = xdruple_specialty_shipping
 ; dependencies[] = commerce_pickup
 ; dependencies[] = commerce_ups
 ; dependencies[] = xdruple_authnet
